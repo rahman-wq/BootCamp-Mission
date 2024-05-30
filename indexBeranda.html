@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill - Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <img src="img/logo.png" alt="logo" class="h-8 w-8" />
+          <div class="text-2xl font-bold">Chill</div>
+        </div>
+        <nav class="space-x-4">
+          <a href="#" class="hover:text-yellow-500">Series</a>
+          <a href="#" class="hover:text-yellow-500">Film</a>
+          <a href="#" class="hover:text-yellow-500">Daftar Saya</a>
+        </nav>
+        <div class="w-10 h-10 rounded-full overflow-hidden">
+          <img src="img/avatar.png" alt="Avatar" />
+        </div>
+      </div>
+    </header>
+    <!-- Main Page -->
+    <main class="container mx-auto mt-8 space-y-16">
+      <!-- Hero Section -->
+      <section
+        class="hero bg-cover bg-center h-96"
+        style="background-image: url('img/3.png')"
+      >
+        <div
+          class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50 p-6 text-center"
+        >
+          <h1 class="text-4xl font-bold mb-4">Ready to Watch Movies?</h1>
+          <p class="text-xl mb-2 font-semibold">Duty After School</p>
+          <p class="text-md mb-6 max-w-xl">
+            Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,
+            Departemen Pertahanan mulai merekrut lebih banyak tentara, termasuk
+            siswa sekolah menengah. Mereka pun segera menjadi pejuang garis
+            depan dalam perang.
+          </p>
+          <div class="space-x-4">
+            <button class="bg-red-500 px-4 py-2 rounded hover:bg-red-600">
+              Mulai
+            </button>
+            <button class="bg-gray-600 px-4 py-2 rounded hover:bg-gray-700">
+              Selengkapnya
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Melanjutkan Tonton Film Section -->
+      <section class="continue-watching">
+        <h2 class="text-2xl font-bold mb-4">Melanjutkan Tonton Film</h2>
+        <div class="flex overflow-x-auto space-x-4 justify-center">
+          <!-- Movie items here -->
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/1.png" alt="Movie1" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/2.png" alt="Movie2" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/3.png" alt="Movie3" class="mb-2" />Don't Look
+            Up
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Rating Film dan Series Hari Ini Section -->
+      <section class="top-rating">
+        <h2 class="text-2xl font-bold mb-4">
+          Top Rating Film dan Series Hari Ini
+        </h2>
+        <div class="flex overflow-x-auto space-x-4 justify-center">
+          <!-- Movie items here -->
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/5.png" alt="Movie5" class="mb-2" />
+            Don't Look Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/6.png" alt="Movie6" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/7.png" alt="Movie7" class="mb-2" />Don't Look
+            Up
+          </div>
+        </div>
+      </section>
+
+      <!-- Film Trending Section -->
+      <section class="trending">
+        <h2 class="text-2xl font-bold mb-4">Film Trending</h2>
+        <div class="flex overflow-x-auto space-x-4 justify-center">
+          <!-- Movie items here -->
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/4.png" alt="Movie4" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/6.png" alt="Movie6" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/5.png" alt="Movie5" class="mb-2" />Don't Look
+            Up
+          </div>
+        </div>
+      </section>
+
+      <!-- Rilis Baru Section -->
+      <section class="new-releases">
+        <h2 class="text-2xl font-bold mb-4">Rilis Baru</h2>
+        <div class="flex overflow-x-auto space-x-4">
+          <!-- Movie items here -->
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/4.png" alt="Movie4" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/6.png" alt="Movie6" class="mb-2" />Don't Look
+            Up
+          </div>
+          <div
+            class="bg-gray-800 p-4 rounded-lg w-48 flex flex-col justify-center items-center"
+          >
+            <img src="img/movies/7.png" alt="Movie7" class="mb-2" />Don't Look
+            Up
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-4 mt-16">
+      <div class="container mx-auto text-center space-y-4">
+        <div class="text-2xl font-bold">Chill</div>
+        <p>&copy; 2024 Chill. All rights reserved.</p>
+        <nav class="space-x-4">
+          <a href="#" class="hover:underline">Genre Film</a>
+          <a href="#" class="hover:underline">FAQ</a>
+          <a href="#" class="hover:underline">Kontak Kami</a>
+          <a href="#" class="hover:underline">Privasi</a>
+          <a href="#" class="hover:underline">Syarat dan Ketentuan</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
